@@ -14,7 +14,12 @@ const postSchema = new mongoose.Schema({
         required: true
     },
     location:{
-        type:String
+        type:String,
+        required: true
+    },
+    badge:{
+        type:boolean,
+        required: true
     }
 })
 

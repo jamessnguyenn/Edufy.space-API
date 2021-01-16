@@ -18,7 +18,7 @@ const postSchema = new mongoose.Schema({
         required: true
     },
     badge:{
-        type:boolean,
+        type:Boolean,
         required: true
     }
 })

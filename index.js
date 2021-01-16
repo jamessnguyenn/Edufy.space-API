@@ -21,6 +21,10 @@ mongoose.connection.on('error', console.error.bind(console, 'Connection error:')
 const userRouter = require('./routes/users');
 app.use('/users', userRouter);
 
+
+const postRouter = require('./routes/posts');
+app.use('/posts', postRouter);
+
 app.listen(5000, (req,res)=>{
     console.log(`Backend server listening`);
 })

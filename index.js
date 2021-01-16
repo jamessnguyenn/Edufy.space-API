@@ -25,6 +25,6 @@ app.use('/users', userRouter);
 const postRouter = require('./routes/posts');
 app.use('/posts', postRouter);
 
-app.listen(5000 || process.env.PORT, (req,res)=>{
+app.listen(process.env.PORT || 5000, (req,res)=>{
     console.log(`Backend server listening`);
 })

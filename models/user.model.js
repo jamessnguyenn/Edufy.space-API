@@ -40,7 +40,7 @@ const userSchema = new mongoose.Schema({
     },
     avatar:{
         type: String,
-        default:'https://www.flaticon.com/svg/vstatic/svg/1077/1077012.svg?token=exp=1610783281~hmac=e06f13733dec6650de10912b097b80e5',
+        default:'https://lh3.googleusercontent.com/ENuDUEHPuKFtmvR2KLTCKQvrQblDKLf4w_S8ktHfShg5y6fsEmVtwOzBE5wRoUaASE7nIZ__MyqK1uxzVBQodEQgJttpnfkQ1qs5E6N_FGz0FXr2qge3L67ra1GiwD-YMKu7oXM8sfvaMfWwDzYgQ6jfqp1pFPEhEYLOaSibim2rxX52g-blOG1nH4BPBQcjkbKMKd9qKgNxxW0Y5Ub0S_IrBR8UsVF4DnGRAgzQbC2UI3Hns7ZaqGMcJIrq-F2bhpbM78Q9_clvSfbDb0fq5LDFz_uqBylkeODeTqFYKuM4s0uaOCG5Jj5s8K602g-AUy_e3dalG8l6kp--YRpoctid4RamUPBkredpoHizbZSjbXDievZBqTlWWXrShSEpW2RYLF3kyyzX3ETkyZDTCV8ap882Y4ZfANTM8txBA9bl5Q-M2b8cfCW05MHNOwipDOMQNHKYzP8WSeSOoC0_6vTMWy_tZ0b4T3mSPbiSndG1RlpcxOwihX2w9Lp-YJesM-u_VZxAUGK2yGXYeUEdCRoJys6YqeaN3g-vzihmalPnoEoSk50MuiFIptDrXhwdX1zjw4r9-q8HcPuEDZEGI799HzLtFuE6m7QB8w2jHezoAimn74kK60ishZ5HBvdsQU44on0CaKuibicN_gopyuUUrBPSMX-CKdYJ9u8NUQ0zH_7h9yZaqQsOt0BB4g=s512-no?authuser=0',
     },
     bought:[Number],
     badge:{ 
